@@ -4,17 +4,15 @@
        
     </head>
     <body>
-        <h1 id="heading1" class="heading">This is Heading 1</h1>
-
-        <h2 id="heading2" class="heading">This is Heading 2 </h2>
+        <b>One</b>
+        <b>Two</b>
+        <a>Anchor 1</a>
+        <a>Anchor 2</a>
 
         <script>
-            const tags=document.getElementsByClassName("heading");
-    
-          tags[0].innerHTML = "First Element";//modify element
-          tags[1].innerHTML = "Second Element";
+            const tags=document.getElementsByTagName("a");
+            tags[0].innerHTML = "Modified Text <br />";
 
-
-</script>
+        </script>
     </body>
 </html>
